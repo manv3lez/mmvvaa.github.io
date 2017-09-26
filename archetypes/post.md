@@ -1,13 +1,13 @@
 +++
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = {{ .Date }}
-description = "Thank you for choosing After Dark."
+description = "Yet another note here. Bear with me, please."
 draft = true
 toc = true
-categories = ["technology"]
-tags = ["hello", "world"]
+categories = ["Time", "Art", "Bitcoin"]
+tags = ["Time", "Art", "Bitcoin"]
 images = [
-  "https://source.unsplash.com/category/technology/1600x900"
+  "https://source.unsplash.com/category/love/1600x900"
 ] # overrides the site-wide open graph image
 +++
 

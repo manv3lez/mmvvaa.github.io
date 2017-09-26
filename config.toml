@@ -1,6 +1,6 @@
-baseurl = "https://c74ce35e.ngrok.io" # Controls base URL
+baseurl = "mmvvaa.github.io" # Controls base URL
 languageCode = "en-US" # Controls site language
-title = "Creating Value from Exploring" # Homepage title and page title suffix
+title = "Creating Value from Surprise, in a Post Bitcoin World." # Homepage title and page title suffix
 paginate = 11 # Number of posts to show before paginating
 
 theme = "after-dark" # Set default theme
@@ -12,12 +12,24 @@ SectionPagesMenu = "main" # Enable menu system for lazy bloggers
 footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
 
 [params]
-  description = "A place to hold notes from an attempt to decentralize existing communities from the grownd up." # Suggested, controls default description meta
-  author = "" # Optional, controls author name display on posts
+  description = "A place to hold notes from an attempt to decentralize existing communities from the grownd up. All this ideas are marely a working document. Un unfinished proposal. An invitation to tinker with me. If they weren't, if it was a done deal, I would not be writing these here. " # Suggested, controls default description meta
+  author = "Don't worry about it" # Optional, controls author name display on posts
   hide_author = false # Optional, set true to hide author name on posts
-  show_menu = false # Optional, set true to enable section menu
+  show_menu = true # Optional, set true to enable section menu
   powered_by = true # Optional, set false to disable credits
   images = [
-    "https://source.unsplash.com/category/technology/1600x900"
+    "https://source.unsplash.com/category/punk/1600x900"
   ] # Suggested, controls default Open Graph images
   theme_variant = "" # Optional, for use to overriding default theme
+  related_content_limit = 7
+
+  [[menu.main]]
+    name = "Home"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    weight = 2
+    identifier = "post"
+    url = "/post/"

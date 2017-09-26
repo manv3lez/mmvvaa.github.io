@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Creating Value from Surprise, in a Post Bitcoin World.</title>
+    <link>mmvvaa.github.io/categories/</link>
+    <description>Recent content in Categories on Creating Value from Surprise, in a Post Bitcoin World.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="mmvvaa.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finished Work</title>
+      <link>mmvvaa.github.io/categories/finished-work/</link>
+      <pubDate>Fri, 15 Sep 2017 11:22:13 -0700</pubDate>
+      
+      <guid>mmvvaa.github.io/categories/finished-work/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

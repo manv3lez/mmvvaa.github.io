@@ -1,21 +1,23 @@
-baseurl = "mmvvaa.github.io" # Controls base URL
+baseurl = "mmvvaa.github.io/mmvvaa/" # Controls base URL
 languageCode = "en-US" # Controls site language
 title = "Creating Value from Surprise, in a Post Bitcoin World." # Homepage title and page title suffix
-paginate = 11 # Number of posts to show before paginating
+paginate = 5 # Number of posts to show before paginating
 
 theme = "after-dark" # Set default theme
 
 enableRobotsTXT = true # Suggested, enable robots.txt file
-googleAnalytics = "" # Optional, add tracking Id for analytics
+googleAnalytics = "UA-107313824-1" # Optional, add tracking Id for analytics
 disqusShortname = "" # Optional, add Disqus shortname for comments
 SectionPagesMenu = "main" # Enable menu system for lazy bloggers
 footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
+publishDir = "docs"
+
 
 [params]
   description = "A place to hold notes from an attempt to decentralize existing communities from the grownd up. All this ideas are marely a working document. Un unfinished proposal. An invitation to tinker with me. If they weren't, if it was a done deal, I would not be writing these here. " # Suggested, controls default description meta
   author = "Don't worry about it" # Optional, controls author name display on posts
   hide_author = false # Optional, set true to hide author name on posts
-  show_menu = true # Optional, set true to enable section menu
+  show_menu = false # Optional, set true to enable section menu
   powered_by = true # Optional, set false to disable credits
   images = [
     "https://source.unsplash.com/category/punk/1600x900"
